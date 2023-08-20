@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 
 int main()
 {
@@ -11,7 +10,7 @@ int main()
     scanf("%d %d", &a,&b);
 
     sum = a + b;
-    printf("sum a+b = %d\n",sum);
+   printf("sum %d + %d = %d\n",a,b,sum);
     
     return 0;
 }
