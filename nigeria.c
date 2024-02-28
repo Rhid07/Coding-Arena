@@ -16,12 +16,12 @@ if (year < 63)
 
 printf("%s is not matured to be independent\n",country);
 
-if (year >= 64)
+if (year == 63)
 
-printf("Error %s is not %d \n",country,year);
+printf("HAPPY INDEPENDENT %s is %d \n",country,year);
 
 else
-printf("Happy independent, %s is %d !!!\n",country,year);
+printf("Error, %s is not %d !!!\n",country,year);
 
 return 0;
 }
